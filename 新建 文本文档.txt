@@ -1,0 +1,23 @@
+ # 以下为将当前视频画面暂停，而不是关闭的代码
+    # def open_video(self):
+    #     # 切换播放/暂停状态
+    #     if self.is_playing:
+    #         # 如果已经在播放，则暂停
+    #         self.stop_video()
+    #     else:
+    #         # 如果不在播放，则开始播放
+    #         if not self.video or not self.video.isOpened():
+    #             self.video = cv2.VideoCapture(0)
+    #         if self.video and self.video.isOpened():
+    #             self.timer.start()
+    #         self.is_playing = not self.is_playing  # 切换播放状态
+    #     # 更新按钮文本
+    #     self.update_button_text()
+    #
+    # def stop_video(self):
+    #     # 停止视频播放
+    #     self.timer.stop()
+    #     self.is_playing = False
+    #     if self.video:
+    #         self.video.release()
+    #         self.video = None#以下为将当前视频画面暂停，而不是关闭的代码
